@@ -157,6 +157,8 @@ for (let i = 0; i < 10; i++) {
     console.log(i);
 }
 
+-------------------------------------------------------------------------------------
+
 let i = 0;
 
 while(i < 10) {
@@ -164,13 +166,21 @@ while(i < 10) {
     i++;
 }
 
+-------------------------------------------------------------------------------------
+
 do {
     console.log(i);
     i++;
 }while(i < 10)
 
+-------------------------------------------------------------------------------------
+
+Hacer un programa que tengas 2 variables (num1,num2) donde se generen numeros aleatorios. Quiero que me muestres esos 2 numeros aleatorios generados y SOLO en el caso que ambos numeros son iguales 3, deje de generar numeros. 
+
 let num1;
 let num2;
+
+-------------------------------------------------------------------------------------
 
 do {
     num1 = Math.floor(Math.random() * (7 - 1) + 1);
@@ -182,15 +192,9 @@ do {
 
 // AND T T = T , T F = F , F T = F , F F = F
 
-NUMEROS PARES
-NUMEROS IMPARES
+-------------------------------------------------------------------------------------
 
-Hacer un programa que tengas 2 variables (num1,num2) donde se generen numeros aleatorios. Quiero que me muestres esos 2 numeros aleatorios generados y SOLO en el caso que ambos numeros son iguales 3, deje de generar numeros. 
-
-num1 = 3 y num2 = 3
-
-Hacer un programa que tire 3 numeros aleatorios entre los valores 1 y 10. Primero mostrar los 3 numeros, despues mostrar la suma de los 3 numeros y que frene cuando la suma este entre 20 y 25. 
-*/
+Hacer un programa que tire 3 numeros aleatorios entre los valores 1 y 3. Primero mostrar los 3 numeros, despues mostrar la suma de los 3 numeros y que frene cuando la suma de mas de 5.
 
 let num1,num2,num3;
 let suma;
@@ -201,4 +205,7 @@ do {
     console.log (num1,num2,num3);
     suma = num1 + num2 + num3;
     console.log (suma);
-} while (0 < suma < 2 || 8 < suma <= 9)
+} while (suma < 6)
+
+*/
+
