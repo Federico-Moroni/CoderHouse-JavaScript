@@ -1,0 +1,5 @@
+/* 
+
+Estructura de dato para almacenar informacion y poder manipularla facilmente. La diferencia es que el objeto tiene informacion pertinente a ese objeto y el array puede tener pero no necesariamente la tiene.
+
+*/

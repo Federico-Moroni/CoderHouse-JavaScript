@@ -5,7 +5,7 @@ console.log(`Hola ${nombre}! Bienvenido a Fratelli!`);
 // La idea de mi proyecto es hacer un cotizador (para aproximar el precio) de una pagina web. 
 
 let preguntaTipoPagina = parseInt(Number(prompt("Si queres una landing page ingresa 1, sino ingresa 2.")));
-let preguntaViewportsLanding = parseInt(Number(prompt("Cuantos viewports queres que tenga tu Landing page")));
+let preguntaViewportsLanding = parseInt(Number(prompt("Cuantos viewports queres que tenga tu Landing page?")));
 
 let tipoDePagina = preguntaTipoPagina => {
 if (preguntaTipoPagina == 1) {
