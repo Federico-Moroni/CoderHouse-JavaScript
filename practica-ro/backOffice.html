@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form id="formBo" action="">
+        <input type="text" placeholder="User" id="user">
+        <input type="number" placeholder="Password" id="password">
+    </form>
+    <br>
+    <button id="btn-bo">Login</button>
+    
+    <table id="table">
+        <tr>
+            <td>Indice</td>
+            <td>Nombre</td>
+            <td>Documento</td>
+            <td>Edad</td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+    <br>
+
+    <form id="buscadorForm" action="">
+        <input type="radio" name="buscador-inputs" id="nombre" value="nombre">
+        <label for="nombre">Nombre</label>
+        <input type="radio" name="buscador-inputs" id="documento" value="documento">
+        <label for="documento">Documento</label>
+        <input type="radio" name="buscador-inputs" id="edad" value="edad">
+        <label for="edad">Edad</label>
+        <br>
+        <br>
+        <input type="text" id="buscador" placeholder="Buscador">
+    </form>
+    <br>
+    <button id="btn-buscador">Buscar</button>
+    <br>
+    <br>
+        <table id="table-buscador">
+            <tr>
+                <td>Indice</td>
+                <td>Nombre</td>
+                <td>Documento</td>
+                <td>Edad</td>
+            </tr>
+        </table>
+    <br>
+
+
+    <script src="backOffice.js"></script>
+</body>
+</html>
